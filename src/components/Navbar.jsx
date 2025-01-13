@@ -6,14 +6,7 @@ import { TiLocationArrow } from "react-icons/ti";
 
 import Button from "./Button";
 
-const navItems = [
-  "Solutions",
-  "Vault",
-  "Customers",
-  "About",
-  "Partners",
-  "Contact",
-];
+const navItems = ["Solutions", "Customers", "About", "Partners", "Contact"];
 
 const NavBar = () => {
   // State for toggling audio and visual indicator

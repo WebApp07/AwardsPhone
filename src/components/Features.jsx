@@ -90,7 +90,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
               }}
             />
             <TiLocationArrow className="relative z-20" />
-            <p className="relative z-20">coming soon</p>
+            <p className="relative z-20">Talk To An Expert</p>
           </div>
         )}
       </div>
@@ -103,12 +103,15 @@ const Features = () => (
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
-          Into the Metagame Layer
+          By embracing cutting-edge technology and redefining the conventional
+          approach
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          Immerse yourself in a rich and ever-expanding universe where a vibrant
-          array of products converge into an interconnected overlay experience
-          on your world.
+          we ensure that emergency communication remains robust and accessible,
+          fostering peace of mind and confidence in an increasingly
+          interconnected world. Your safety is our paramount priority, and we
+          continually strive to improve and adapt to meet the evolving needs of
+          a changing landscape.
         </p>
       </div>
 
@@ -117,10 +120,10 @@ const Features = () => (
           src="videos/feature-1.mp4"
           title={
             <>
-              radia<b>n</b>t
+              elevate<b>cell</b>system
             </>
           }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+          description="Voice Link and AT&T FirstNet® Priority Cellular offer a standard voice telephone line replacement service for emergency communications for new and legacy life safety equipment."
           isComingSoon
         />
       </BentoTilt>
@@ -129,12 +132,7 @@ const Features = () => (
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
             src="videos/feature-2.mp4"
-            title={
-              <>
-                zig<b>m</b>a
-              </>
-            }
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+            description="Supporting All Your POTS Replacement Needs."
             isComingSoon
           />
         </BentoTilt>
