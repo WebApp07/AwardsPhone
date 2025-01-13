@@ -123,7 +123,7 @@ const Features = () => (
               elevate<b>cell</b>system
             </>
           }
-          description="Voice Link and AT&T FirstNet® Priority Cellular offer a standard voice telephone line replacement service for emergency communications for new and legacy life safety equipment."
+          description="Ideal for elevators areas of rescue two-way communication emergency and pool phones Priority cellular acces monitored phone line and robust hardware bundled into one Provides a secure direct connection over an LTE cellular network to a UL Listed Central Station."
           isComingSoon
         />
       </BentoTilt>
@@ -140,12 +140,7 @@ const Features = () => (
         <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
           <BentoCard
             src="videos/feature-3.mp4"
-            title={
-              <>
-                n<b>e</b>xus
-              </>
-            }
-            description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+            description="Monthly Cost Savings up to 50% Protect Your Infrastructure Streamlined Communications Future-Proofed Technology Plug & Play Implementation Programmable for Any Use Case"
             isComingSoon
           />
         </BentoTilt>
@@ -153,12 +148,7 @@ const Features = () => (
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
             src="videos/feature-4.mp4"
-            title={
-              <>
-                az<b>u</b>l
-              </>
-            }
-            description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+            description="Cellular Battery Backup Extended Life of Existing Assets Nationwide Coverage Improved Reliability Mass Management of Devices Network Visibility & Reporting"
             isComingSoon
           />
         </BentoTilt>
@@ -171,16 +161,6 @@ const Features = () => (
 
             <TiLocationArrow className="m-5 scale-[5] self-end" />
           </div>
-        </BentoTilt>
-
-        <BentoTilt className="bento-tilt_2">
-          <video
-            src="videos/feature-5.mp4"
-            loop
-            muted
-            autoPlay
-            className="size-full object-cover object-center"
-          />
         </BentoTilt>
       </div>
     </div>
