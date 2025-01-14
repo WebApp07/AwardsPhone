@@ -1,7 +1,33 @@
+import gsap from "gsap";
 import React from "react";
+import { useGSAP } from "@gsap/react";
+
 import { FaQuoteLeft } from "react-icons/fa";
 
+import { ScrollTrigger } from "gsap/all";
+import AnimatedTitle from "./AnimatedTitle";
+
+gsap.registerPlugin(ScrollTrigger);
+
 const TestimonialInterface = () => {
+  useGSAP(() => {
+    const clipAnimation = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#clip",
+        start: "center center",
+        end: "+=800 center",
+        scrub: 0.5,
+        pin: true,
+        pinSpacing: true,
+      },
+    });
+
+    clipAnimation.to(".mask-clip-path", {
+      width: "100vw",
+      height: "100vh",
+      borderRadius: 0,
+    });
+  });
   const testimonials = [
     {
       id: 1,
@@ -34,10 +60,11 @@ const TestimonialInterface = () => {
 
   return (
     <div className="container mx-auto px-4 py-16">
-      <h2 className="text-4xl font-bold text-center mb-4">
-        What Our Customers Say
-      </h2>
-      <p className="text-xl text-gray-600 text-center mb-12">
+      <AnimatedTitle
+        title="What Our <b>C</b>ustomers <b>S</b>ay"
+        containerClass="mt-5 !text-black text-center"
+      />
+      <p className="text-xl text-gray-600 text-center mb-10 py-10 ">
         Don't just take our word for it - hear from our satisfied customers
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
