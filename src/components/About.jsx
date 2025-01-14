@@ -29,9 +29,12 @@ const About = () => {
   return (
     <div id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
+        {/*  
+
         <p className="font-general text-sm uppercase md:text-[10px]">
           Welcome to ElevateCellSystems
         </p>
+        */}
 
         <AnimatedTitle
           title="Stay <b>C</b>onnected with the <br /> World's Most Reliable <b>E</b>mergency Network"
